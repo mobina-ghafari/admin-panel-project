@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin-panel</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.fa.min.css">
+    <link rel="stylesheet" href="./mycss/main.css">
+    <script src="https://kit.fontawesome.com/f0cc3ee564.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler collapsed bg-light mb-2 " data-toggle="collapse" data-target="#navcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcollapse">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--sidebar-->
+                    <div class="col-xl-2 col-lg-3 col-md-4 fixed-top my-sidebar">
+                        <a href="" class="navbar-brand text-white border-bottom text-center d-block mb-4 py-3 mx-auto">نئون</a>
+                        <div class="d-block  border-bottom pb-3">
+                            <img class="rounded-pill" style="width: 50px;" src="./images/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="">
+                            <span class=" text-white  mr-3">مبینا غفاری</span>
+                        </div>
+                        <ul class="nav-bar flex-coulmn list-unstyled mt-4">
+                            <li class="nav-item first-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-home fa-lg ml-3"></i>
+                                    داشبورد
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-user fa-lg ml-3"></i>
+                                    پروفایل
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3">
+                                    <i class="fas fa-envelope fa-lg ml-3"></i>
+                                    پیام ها
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-shopping-cart fa-lg ml-3"></i>
+                                    فروش
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-chart-line fa-lg ml-3"></i>
+                                    تحلیل
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-chart-bar fa-lg ml-3"></i>
+                                    نمودار ها
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 ">
+                                    <i class="fas fa-table fa-lg ml-3"></i>
+                                    جدول ها
+                                </a>
+                            </li>
+                            <li class="nav-item other-li">
+                                <a href="" class="nav-link text-white p-3 mb-2">
+                                    <i class="fas fa-wrench fa-lg ml-3"></i>
+                                    تنظیمات
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--sidebar-->
+                    <!--navbar-->
+                    <div class="col-xl-10 col-lg-9 col-md-8 fixed-top bg-dark py-2 my-navbar mr-auto">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4 class="text-white">داشبورد</h4>
+                            </div>
+                            <div class="col-md-5">
+                                <form action="" class="my-4 my-md-0">
+                                    <div class="input-group">
+                                        <button class="btn btn-white search-btn">
+                                            <i class="fas fa-search text-danger"></i>
+                                        </button>
+                                        <input type="text" class="form-control search-input" placeholder="جستجو ...">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="navbar-nav flex-row justify-content-between">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">
+                                            <i class="fas fa-comments fa-lg text-muted"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">
+                                            <i class="fas fa-bell fa-lg text-muted"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item mr-md-auto">
+                                        <a href="#mymodal" class="nav-link" data-toggle="modal">
+                                            <i class="fas fa-sign-out-alt fa-lg text-danger"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--navbar-->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Nav-->
+
+    <!--modal-->
+    <div class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>آیا می خواهید خارج شوید؟</h4>
+                </div>
+                <div class="modal-body">
+                    <span class="text-muted">در صورت خروج،برای دسترسی به پنل باید مجددا وارد شوید</span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" data-dismiss="modal">میمانم</button>
+                    <button class="btn btn-danger">خارج میشوم</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal-->
+
+    <!--bootstrap script-->
+    <script src="./bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <!--bootstrap script-->
+</body>
+</html>
