@@ -74,6 +74,16 @@ a:hover{
     box-shadow: none;
     background-color: transparent;
 }
+
+.my-card{
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+}
+
+.my-card:hover{
+    transform: translateY(-1px);
+    box-shadow: 2px 3px 15px #999;
+}
 /*mystyle*/
 @media(max-width : 768px){
     .my-navbar{
