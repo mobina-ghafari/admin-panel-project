@@ -84,6 +84,10 @@ a:hover{
     transform: translateY(-1px);
     box-shadow: 2px 3px 15px #999;
 }
+
+.border-task{
+    border-right: 3px solid #f66436;
+}
 /*mystyle*/
 @media(max-width : 768px){
     .my-navbar{
